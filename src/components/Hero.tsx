@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Mail, Sparkles } from "lucide-react";
 import { useEffect, useState } from "react";
+import avatarCartoon from "@/assets/avatar-cartoon.png";
 
 const ROLES = [
   "Frontend Engineer",
@@ -100,6 +101,30 @@ export function Hero() {
         >
           <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
           Available for new opportunities
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0, rotate: -30 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
+          transition={{ delay: 0.15, type: "spring", stiffness: 140, damping: 12 }}
+          whileHover={{ scale: 1.08, rotate: [0, -5, 5, 0] }}
+          className="mx-auto mb-6 relative w-28 h-28 md:w-36 md:h-36"
+        >
+          <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/40 to-transparent blur-2xl" />
+          <div className="relative h-full w-full rounded-full overflow-hidden ring-2 ring-primary/60 glow-primary">
+            <img
+              src={avatarCartoon}
+              alt="Vasudev cartoon avatar"
+              width={288}
+              height={288}
+              className="h-full w-full object-cover"
+            />
+          </div>
+          <motion.span
+            animate={{ rotate: 360 }}
+            transition={{ duration: 12, repeat: Infinity, ease: "linear" }}
+            className="absolute -inset-2 rounded-full border border-dashed border-primary/40"
+          />
         </motion.div>
 
         <h1 className="font-display font-bold tracking-tighter text-[clamp(3.5rem,15vw,12rem)] leading-[0.85] mb-6 flex items-center justify-center flex-wrap">
