@@ -10,6 +10,7 @@ import { Contact } from "@/components/Contact";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { Cursor } from "@/components/Cursor";
 import { Marquee } from "@/components/Marquee";
+import { Parallax } from "@/components/Parallax";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -41,6 +42,7 @@ function Index() {
       <About />
       <Skills />
       <Experience />
+      <Parallax />
       <Projects />
       <Achievements />
       <Contact />
