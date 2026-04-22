@@ -69,7 +69,7 @@ export function Projects() {
             href={p.live}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-80px" }}
+            viewport={{ once: true }}
             transition={{ delay: (i % 3) * 0.1, duration: 0.5 }}
             className={`group glass glass-hover rounded-2xl overflow-hidden flex flex-col ${
               p.featured ? "lg:col-span-2 lg:row-span-1" : ""
