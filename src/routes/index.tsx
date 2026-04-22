@@ -7,6 +7,9 @@ import { Experience } from "@/components/Experience";
 import { Projects } from "@/components/Projects";
 import { Achievements } from "@/components/Achievements";
 import { Contact } from "@/components/Contact";
+import { ScrollProgress } from "@/components/ScrollProgress";
+import { Cursor } from "@/components/Cursor";
+import { Marquee } from "@/components/Marquee";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -30,8 +33,11 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <main className="relative overflow-x-hidden">
+      <ScrollProgress />
+      <Cursor />
       <Navbar />
       <Hero />
+      <Marquee />
       <About />
       <Skills />
       <Experience />
