@@ -24,8 +24,8 @@ export function About() {
     <Section
       id="about"
       eyebrow="About"
-      title="Building fast, scalable interfaces."
-      description="Frontend Engineer with 3+ years of production experience crafting web and mobile applications that combine pixel-perfect design with measurable business impact."
+      title="Building fast, scalable products."
+      description="MERN Stack Developer with 3+ years of production experience building end-to-end web applications for B2B SaaS and EdTech — from MongoDB schema design to pixel-perfect React interfaces."
     >
       <div ref={ref} className="grid lg:grid-cols-5 gap-10 items-center mb-14">
         <motion.div

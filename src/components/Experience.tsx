@@ -3,25 +3,36 @@ import { Section } from "./Section";
 
 const jobs = [
   {
+    company: "B4T (Buddy For Travel)",
+    role: "Full Stack Developer",
+    period: "Jun 2026 — Present",
+    bullets: [
+      "Own full-stack delivery across the consumer website (Nuxt 3/Vue) and native mobile apps (React Native + Flutter).",
+      "Maintain the core Consumer API (Node.js/Express) powering auth, bookings, wallets, matching, payments, and notifications.",
+      "Built a RAG-based AI support chat (FastAPI + pgvector) with a Next.js admin UI.",
+      "Manage cross-service infrastructure — PostgreSQL, MongoDB, Redis, and a self-hosted WhatsApp API on Google Cloud Run.",
+    ],
+  },
+  {
     company: "Coursi Academy",
-    role: "Frontend Engineer",
+    role: "MERN Stack Developer",
     period: "Nov 2023 — Present",
     bullets: [
-      "Built scalable React + Next.js applications powering core learning platform.",
-      "Created an internal reusable component library used across 4 products.",
-      "Implemented SSR + SEO optimization, lifting organic reach significantly.",
-      "Improved performance by 30% via code-splitting and Core Web Vitals tuning.",
+      "Shipped full-stack features end-to-end — React + TypeScript frontend, Node/Express REST APIs, MongoDB with Mongoose.",
+      "Designed RESTful APIs with JWT auth, role-based access (Teacher / Student / Parent), and rate limiting.",
+      "Achieved 30% performance improvement via MongoDB indexing and query optimization.",
+      "Deployed on AWS EC2 with Docker, Nginx, and GitHub Actions CI/CD — zero production regressions.",
     ],
   },
   {
     company: "UpMyRanks",
-    role: "Frontend Developer · Team Lead",
+    role: "React Frontend Developer",
     period: "Sep 2022 — Oct 2023",
     bullets: [
-      "Led a team of 5 developers across feature delivery and code reviews.",
-      "Built a high-performance SPA with Redux Toolkit and modular architecture.",
-      "Migrated legacy stack to Next.js for SSR and improved SEO.",
-      "Increased user engagement by 25% through UX and perf improvements.",
+      "Shipped production React features for a B2B SaaS dashboard — reusable components, custom hooks, Redux state management.",
+      "Built dynamic data tables with filters across multi-role admin panels.",
+      "Resolved UI bugs with root-cause fixes using Chrome DevTools and Lighthouse — no regression patches.",
+      "Delivered 25% engagement increase across mobile and desktop.",
     ],
   },
 ];

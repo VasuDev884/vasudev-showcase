@@ -11,10 +11,28 @@ import studio from "@/assets/project-studio.jpg";
 
 const projects = [
   {
-    title: "School ERP Platform",
-    desc: "Full frontend ownership of a multi-role ERP with dashboards for admins, teachers, students and parents. JWT auth, role-based routing, CI/CD.",
-    tags: ["Next.js", "TypeScript", "Redux", "JWT", "GitHub Actions"],
+    title: "School ERP — Full-Stack MERN Admin Panel",
+    desc: "Complete School ERP with multi-role views (Teacher / Student / Parent), JWT auth with bcrypt, MongoDB aggregation-powered data tables, real-time notifications via Socket.io, and Docker + GitHub Actions deploys to AWS EC2.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "Docker"],
     img: erp, github: "https://github.com/VasuDev884", live: "#", featured: true,
+  },
+  {
+    title: "Coursei Academy — Course Platform",
+    desc: "End-to-end MERN course enrolment platform with Stripe payments, secure S3 uploads via pre-signed URLs, and RTK Query caching — 12% conversion rate lift.",
+    tags: ["React", "Express", "MongoDB", "Stripe", "AWS S3"],
+    img: video, github: "https://github.com/VasuDev884", live: "#",
+  },
+  {
+    title: "LuxEstate Pro — Real Estate Platform",
+    desc: "Full-stack real estate platform with property listings, bookings, agent chat via Socket.io, and a secure admin dashboard with analytics and CSV export.",
+    tags: ["React", "Node.js", "MongoDB", "Socket.io", "GSAP"],
+    img: ecom, github: "https://github.com/VasuDev884", live: "#",
+  },
+  {
+    title: "Porsche Motion Showcase — 3D Experience",
+    desc: "3D car showcase with GLB model rendering, scroll-based GSAP animations, and a Node.js/MongoDB backend for inventory and contact handling.",
+    tags: ["React", "Three.js", "GSAP", "Node.js"],
+    img: studio, github: "https://github.com/VasuDev884", live: "#",
   },
   {
     title: "AI Resume Optimizer",
@@ -29,28 +47,10 @@ const projects = [
     img: remote, github: "https://github.com/VasuDev884", live: "#",
   },
   {
-    title: "E-commerce MERN",
-    desc: "Full-stack store with product catalog, cart, checkout, and order management on the MERN stack.",
-    tags: ["MongoDB", "Express", "React", "Node"],
-    img: ecom, github: "https://github.com/VasuDev884", live: "#",
-  },
-  {
-    title: "AI Video Course Generator",
-    desc: "Generates structured video courses from a single prompt — script, slides, and narration pipeline.",
-    tags: ["Next.js", "AI", "FFmpeg"],
-    img: video, github: "https://github.com/VasuDev884", live: "#",
-  },
-  {
     title: "DigiVridh",
     desc: "Agri-tech dashboard surfacing crop analytics, yield forecasts, and inventory across regions.",
     tags: ["React", "Charts", "REST"],
     img: digivridh, github: "https://github.com/VasuDev884", live: "#",
-  },
-  {
-    title: "Thirtysixstudios",
-    desc: "Experimental studio site with bold typography, scroll-driven motion, and immersive transitions.",
-    tags: ["React", "GSAP", "Locomotive"],
-    img: studio, github: "https://github.com/VasuDev884", live: "#",
   },
 ];
 
