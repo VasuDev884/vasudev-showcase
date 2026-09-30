@@ -15,10 +15,10 @@ import { Parallax } from "@/components/Parallax";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Vasudev — Frontend Engineer · React, Next.js, TypeScript" },
-      { name: "description", content: "Premium portfolio of Vasudev, a Frontend Engineer with 3+ years building scalable React, Next.js, and TypeScript applications. 30% performance gains, 25% engagement lift." },
-      { property: "og:title", content: "Vasudev — Frontend Engineer" },
-      { property: "og:description", content: "Frontend Engineer crafting premium React & Next.js experiences. 3+ years production experience." },
+      { title: "Vasudev — MERN Stack Developer · MongoDB, Express, React, Node.js" },
+      { name: "description", content: "Portfolio of Vasudev, a MERN Stack Developer with 3+ years building end-to-end B2B SaaS and EdTech applications. 30% performance gains, 25% engagement lift, 12% conversion improvement." },
+      { property: "og:title", content: "Vasudev — MERN Stack Developer" },
+      { property: "og:description", content: "Full-stack MERN developer crafting production apps with React, Node.js, Express, and MongoDB. 3+ years production experience." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

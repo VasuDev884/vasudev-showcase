@@ -5,7 +5,7 @@ const items = [
   { icon: Zap, value: "30%", label: "Performance boost", sub: "Core Web Vitals" },
   { icon: TrendingUp, value: "25%", label: "Engagement increase", sub: "DAU & retention" },
   { icon: Target, value: "12%", label: "Conversion lift", sub: "Funnel optimization" },
-  { icon: Users, value: "5", label: "Engineers led", sub: "Cross-functional team" },
+  { icon: Users, value: "5", label: "Developers mentored", sub: "Code reviews & standards" },
 ];
 
 export function Achievements() {
