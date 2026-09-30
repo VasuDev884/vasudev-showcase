@@ -8,8 +8,15 @@ import ecom from "@/assets/project-ecom.jpg";
 import video from "@/assets/project-video.jpg";
 import digivridh from "@/assets/project-digivridh.jpg";
 import studio from "@/assets/project-studio.jpg";
+import b4t from "@/assets/project-b4t.jpg";
 
 const projects = [
+  {
+    title: "Buddy4Travel — Assisted Travel Platform",
+    desc: "Care-in-the-air platform connecting passengers with verified travel companions and care providers — real-time coordination for airlines, agencies, and global travel partners.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "REST APIs"],
+    img: b4t, github: "https://github.com/VasuDev884", live: "https://b4t.com",
+  },
   {
     title: "School ERP — Full-Stack MERN Admin Panel",
     desc: "Complete School ERP with multi-role views (Teacher / Student / Parent), JWT auth with bcrypt, MongoDB aggregation-powered data tables, real-time notifications via Socket.io, and Docker + GitHub Actions deploys to AWS EC2.",
