@@ -8,6 +8,7 @@ import ecom from "@/assets/project-ecom.jpg";
 import video from "@/assets/project-video.jpg";
 import digivridh from "@/assets/project-digivridh.jpg";
 import studio from "@/assets/project-studio.jpg";
+import b4t from "@/assets/project-b4t.jpg";
 
 const projects = [
   {
