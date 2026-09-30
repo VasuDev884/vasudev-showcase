@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 import avatarCartoon from "@/assets/avatar-cartoon.png";
 
 const ROLES = [
-  "Frontend Engineer",
+  "MERN Stack Developer",
+  "Full-Stack Engineer",
   "React Specialist",
-  "Next.js Developer",
-  "Performance Nerd",
+  "Node.js Developer",
 ];
 
 function Typewriter() {
@@ -80,7 +80,7 @@ export function Hero() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 1.5 }}
       >
-        ▲ Next.js 15
+        🍃 MongoDB
       </motion.div>
       <motion.div
         className="hidden md:block absolute bottom-40 left-20 glass rounded-full px-4 py-2 text-xs font-mono floaty"
@@ -184,7 +184,7 @@ export function Hero() {
           transition={{ delay: 1.1 }}
           className="text-sm md:text-base text-muted-foreground mb-12 font-mono"
         >
-          React.js · Next.js · TypeScript · Performance
+          MongoDB · Express.js · React.js · Node.js
         </motion.p>
 
         <motion.div

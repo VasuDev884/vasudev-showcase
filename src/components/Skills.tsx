@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { Section } from "./Section";
 
 const groups = [
-  { title: "Frontend", items: ["React.js", "Next.js", "TypeScript", "React Native"] },
-  { title: "State", items: ["Redux Toolkit", "Context API"] },
-  { title: "UI / UX", items: ["Tailwind CSS", "Material UI", "Responsive Design", "Figma"] },
-  { title: "Backend & APIs", items: ["REST APIs", "Axios", "JWT Auth"] },
-  { title: "Performance", items: ["Code Splitting", "Lazy Loading", "Core Web Vitals"] },
-  { title: "Tools", items: ["Vite", "Webpack", "Git", "GitHub Actions", "Jest"] },
+  { title: "MongoDB", items: ["Mongoose ODM", "Aggregation Pipelines", "Indexing", "Atlas Cloud", "Schema Design"] },
+  { title: "Express.js", items: ["REST API Design", "Middleware", "MVC Architecture", "Rate Limiting", "Joi Validation"] },
+  { title: "React.js", items: ["Hooks", "Redux Toolkit", "RTK Query", "React Router", "Memoization"] },
+  { title: "Node.js", items: ["Async/Await", "JWT Auth", "bcrypt", "Multer", "Socket.io"] },
+  { title: "Frontend", items: ["TypeScript", "JavaScript ES6+", "Tailwind CSS", "Framer Motion", "GSAP"] },
+  { title: "Testing & Tools", items: ["Jest", "Supertest", "Docker", "AWS", "GitHub Actions", "Vite"] },
 ];
 
 export function Skills() {
@@ -16,7 +16,7 @@ export function Skills() {
       id="skills"
       eyebrow="Toolkit"
       title="Technologies I work with."
-      description="A curated stack focused on shipping production-quality React apps with performance and DX baked in."
+      description="The full MERN stack — from MongoDB schema design to polished React interfaces — with testing and DevOps baked in."
     >
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
         {groups.map((g, i) => (
